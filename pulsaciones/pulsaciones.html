@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador de Pulsaciones</title>
+    <link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Pulsaciones</h1>
+    </header>
+    <nav>
+        <div>
+            <a href="../index.html">
+                <li>Inicio</li>
+            </a>
+            <a href="../acerca/acercade.html.">
+                <li>Acerca de</li>
+            </a>
+            <a href="pulsaciones.html">
+                <li>Pulsaciones</li>
+            </a>
+            <a href="../consulta.html">
+                <li>Consulta</li>
+            </a>
+        </div>
+    </nav>
+    <section>
+        <article>
+            <form action="">
+                <label class="nombre" for="nombre">Nombre</label>
+                <input id="nombre" type="text" placeholder="Ingrese su nombre">
+                <label class="apellido" for="apellido">Apellidos</label>
+                <input id="apellido" type="text" placeholder="Ingrese su apellido">
+                <label class="sexo" for="sexo">Sexo</label>
+                <select name="Sexo" id="operacionSelccionada">
+                    <option>Femenino</option>
+                    <option>Masculino</option>
+                </select>
+                <label class="edad" for="edad">Edad</label>
+                <input id="age" type="number" placeholder="Edad">
+                <label class="pulsaciones" for="pulsaciones">Pulsaciones</label>
+                <input id="resultado" type="number" placeholder="Pulsaciones">
+                <button type="button" onclick="operacion()">Calcular</button>
+            </form>
+            <br>
+
+        </article>
+    </section>
+    <footer>
+        <p>Para más información contáctenos
+        </p>
+        <a href="mailto:lsilva@estudiantes.uci.cu?Subject=Contactar">
+                 Correo electrónico
+            </a>
+    </footer>
+
+
+</body>
+
+<script src="pulsaciones.js"></script>
+
+</html>
